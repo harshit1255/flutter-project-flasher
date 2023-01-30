@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:record/record.dart';
-import 'package:flutter_sound/flutter_sound.dart';
 import 'package:torch_light/torch_light.dart';
 
 void main() {
@@ -29,7 +28,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final _audioRecorder = Record();
-  final recorder = FlutterSoundRecorder();
   bool button_pressed = false;
   static const onpressed_button_color = Colors.red;
   static const normal_button_color = Colors.white;
